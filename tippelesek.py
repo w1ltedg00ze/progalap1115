@@ -58,8 +58,12 @@ def soktipp():
 
 def bekertegeszek():
     i = 0
+    osszeg = 0
     be = ""
     while be !="*":
         be = input("egész: ")
         if be !="*":
             szam = int(be)
+            osszeg += szam
+
+    print(f"összeg: {osszeg}")

@@ -1,4 +1,4 @@
 import tippelesek
-from tippelesek import egyrobotharomtipp
+from tippelesek import bekertegeszek
 
-egyrobotharomtipp()
+bekertegeszek()
