@@ -61,4 +61,5 @@ def bekertegeszek():
     be = ""
     while be !="*":
         be = input("egész: ")
-        
+        if be !="*":
+            szam = int(be)
