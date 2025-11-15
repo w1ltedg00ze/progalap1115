@@ -34,4 +34,13 @@ def egyrobotharomtipp():
     robot = random.randint(1,10)
     if robot == szam:
         print("Elsőre")
-    elif
+    elif robot == random.randint(1,10):
+        if robot == szam:
+            print("Másodjára")
+        elif robot == random.randint(1,10):
+            if robot == szam:
+                print("Harmadjára")
+            else:
+                print("Nem sikerült :p")
+    else:
+        print("Nem sikerült :p")

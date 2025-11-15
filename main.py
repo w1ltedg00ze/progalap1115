@@ -1,4 +1,4 @@
 import tippelesek
-from tippelesek import haromrobotegyszer
+from tippelesek import egyrobotharomtipp
 
-haromrobotegyszer()
+egyrobotharomtipp()
