@@ -59,11 +59,15 @@ def soktipp():
 def bekertegeszek():
     i = 0
     osszeg = 0
+    paratlandb = 0
     be = ""
     while be !="*":
         be = input("egész: ")
         if be !="*":
             szam = int(be)
             osszeg += szam
+            if szam %2 ==1:
+                paratlandb +=1
 
     print(f"összeg: {osszeg}")
+    print(f"páratlanok száma: {paratlandb}")
