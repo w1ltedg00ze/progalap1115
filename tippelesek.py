@@ -44,3 +44,21 @@ def egyrobotharomtipp():
                 print("Nem sikerült :p")
     else:
         print("Nem sikerült :p")
+
+def soktipp():
+    szam = random.randint(1,10)
+    tipp = random.randint(1,10)
+    tippdb = 0
+    while tippdb < 50 and tipp != szam:
+        tippdb += 1
+        tipp =random.randint(10,10)
+        if tipp == szam:
+            print(f'talált a {tippdb} szám')
+
+
+def bekertegeszek():
+    i = 0
+    be = ""
+    while be !="*":
+        be = input("egész: ")
+        
