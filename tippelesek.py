@@ -6,13 +6,24 @@ def haromrobotegyszer():
     robot3 = random.randint(1, 10)
 
     eltalalta = ""
+    eltszam = 0
 
     if robot1 == szam:
         eltalalta += "1.robot"
+        eltszam +=1
 
     if robot2 == szam:
         eltalalta+= "2.robot"
+        eltszam +=1
 
     if robot3 == szam:
         eltalalta+= "3.robot"
-    print("eltalálták: ", eltalalta)
+        eltszam +=1
+
+
+    if eltszam == 0:
+        print("Nem")
+    elif eltszam <3:
+        print("eltalálták: ", eltalalta)
+    else:
+        print("mind")
